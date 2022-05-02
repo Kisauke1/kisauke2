@@ -7,6 +7,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Kisauke1/kisauke2/mai
 elseif game.PlaceId == 8540346411 and getgenv().RC == true then 
 print("Soon")
 else
-print("No")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kisauke1/kisauke2/main/Kick"))()
 end
 
