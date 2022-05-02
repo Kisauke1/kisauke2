@@ -1,10 +1,6 @@
-getgenv().CS = true 
-getgenv().RC = true 
-
---%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-if game.PlaceId == 7560156054 and getgenv().CS == true then 
+if game.PlaceId == 7560156054 then 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kisauke1/kisauke2/main/CS"))()
-elseif game.PlaceId == 8540346411 and getgenv().RC == true then 
+elseif game.PlaceId == 8540346411 then 
 print("Soon")
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kisauke1/kisauke2/main/Kick"))()
