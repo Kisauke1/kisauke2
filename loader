@@ -7,6 +7,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Kisauke1/kisauke2/mai
 elseif game.PlaceId == 8540346411 and getgenv().RC == true then 
 print("Soon")
 else
-game.Players.LocalPlayer:Kick("Game Not supported sowwy/Join Discord")
+print("No")
 end
 
